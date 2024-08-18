@@ -1,0 +1,470 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .5)),url(back_image.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.container{
+	width: 100%;
+	height: 630px;
+}
+
+#menu{
+	display: none;
+}
+.nav-bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 10px;
+	box-shadow: 0 0 10px blue;
+	border-radius: 10px;
+	
+
+}
+.nav-list{
+	margin-left: 10px;
+	height: auto;
+}
+.nav-list a{
+	margin: 0 10px;
+	padding: 0 10px;
+	text-decoration: none;
+	color: black;
+}
+.nav-list a:hover{
+	padding: 10px 20px;
+	color: white;
+	background-color: black;
+	border-radius: 20px;
+}
+.nav-list a:active{
+	padding: 10px 20px;
+	color: red;
+	background-color: black;
+	border-radius: 20px;
+	box-shadow: 0 0 10px red;
+}
+.header h2{
+	font-size: 60px;
+	text-align: center;
+}
+.login-ops{
+	display: flex;
+	flex-direction: column;
+	margin-left: 95%;
+	max-height: 0px;
+	overflow: hidden;
+}
+.login-ops a{
+	color: white;
+}
+
+.content{
+	display: flex;
+	flex-direction: row;
+	margin: 0 40px;
+}
+.content p{
+	margin:20px 50px;
+	color: white;
+}
+.footers{
+
+	margin: auto;
+	width: 95%;
+	height: 250px;
+	background-color: rgb(123, 124, 234, .3);
+	border-radius: 20px;
+
+}
+.links li{
+	margin: 20px 10px;
+}
+.footers h2{
+	text-align: center;
+	color: white;
+}
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.login-btn {
+	margin-left: 43%;
+	margin-bottom:20px ;
+}
+.login-btn a{
+	text-decoration: none;
+	padding: 10px 20px;
+	color: black;
+	background-color:white;
+	border-radius: 10px;
+}
+.login-btn a:hover{
+	background-color: blue;
+	color: white;
+}
+small{
+	margin-left: 46%;
+}
+@media screen and (max-width:1100px){
+	.container{
+	width: 100%;
+	height: 700px;
+	}
+	.nav-bar{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 10px;
+	}
+	.nav-list a{
+		margin: 0 10px;
+		padding: 0 10px;
+		text-decoration: none;
+		color: black;
+	}
+	.nav-list a:hover{
+		padding: 10px 20px;
+		color: white;
+		background-color: black;
+		border-radius: 20px;
+	}
+	.nav-list a:active{
+		padding: 10px 20px;
+		color: red;
+		background-color: black;
+		border-radius: 20px;
+		box-shadow: 0 0 10px red;
+	}
+	.header h2{
+		font-size: 60px;
+		text-align: center;
+	}
+
+	.content{
+		display: flex;
+		flex-direction: row;
+		margin: 0 40px;
+	}
+	.content p{
+		margin:20px 50px;
+	}
+	.footers{
+
+		margin: auto;
+		margin-top: 40px;
+		width: 95%;
+		height: 250px;
+		background-color: rgb(123, 124, 234, .3);
+		border-radius: 20px;
+
+	}
+	.links li{
+		margin: 20px 10px;
+	}
+	.footers h2{
+		text-align: center;
+		color: white;
+	}
+	.footer{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.login-btn {
+		margin-left: 43%;
+		margin-bottom:20px ;
+	}
+	.login-btn a{
+		text-decoration: none;
+		padding: 10px 20px;
+		color: black;
+		background-color:white;
+		border-radius: 10px;
+	}
+	.login-btn a:hover{
+		background-color: blue;
+		color: white;
+	}
+	small{
+		margin-left: 46%;
+	}
+	.logo{
+		width: 80px;
+	}
+}
+@media screen and (max-width:900px){
+	.container{
+	width: 100%;
+	height: auto;
+	}
+	.nav-bar{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 10px;
+	}
+	.nav-list a{
+		margin: 0 10px;
+		padding: 0 10px;
+		text-decoration: none;
+		color: black;
+	}
+	.nav-list a:hover{
+		padding: 10px 20px;
+		color: white;
+		background-color: black;
+		border-radius: 20px;
+	}
+	.nav-list a:active{
+		padding: 10px 20px;
+		color: red;
+		background-color: black;
+		border-radius: 20px;
+		box-shadow: 0 0 10px red;
+	}
+	.header h2{
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.content{
+		display: flex;
+		flex-direction: row;
+		margin: 0 40px;
+	}
+	.content p{
+		margin:20px 20px;
+	}
+	.footers{
+
+		margin: auto;
+		margin-top: 40px;
+		width: 95%;
+		height: 250px;
+		background-color: rgb(123, 124, 234, .3);
+		border-radius: 20px;
+
+	}
+	.links li{
+		margin: 20px 10px;
+	}
+	.footers h2{
+		text-align: center;
+		color: white;
+	}
+	.footer{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.login-btn {
+		margin-left: 43%;
+		margin-bottom:20px ;
+	}
+	.login-btn a{
+		text-decoration: none;
+		padding: 10px 20px;
+		color: black;
+		background-color:white;
+		border-radius: 10px;
+	}
+	.login-btn a:hover{
+		background-color: blue;
+		color: white;
+	}
+	small{
+		margin-left: 46%;
+	}
+	.logo{
+		width: 80px;
+	}
+}
+@media screen and (max-width:760px){
+	.container{
+	width: 100%;
+	height: auto;
+	}
+	#menu{
+		display: block;
+		margin:0 80%;
+	}
+	.nav-list{
+		max-height: 0px;
+		overflow: hidden;
+		width: 80px;
+	}
+	.nav-list{
+		max-height: 0px;
+		overflow: hidden;
+	}
+	.nav-list a{
+		margin: 0 10px;
+		padding: 0 10px;
+		text-decoration: none;
+		color: black;
+	}
+	.nav-list a:active{
+		padding: 10px 20px;
+		color: blue;
+		background-color: white;
+		border-radius: 20px;
+		box-shadow: none;
+	}
+	.nav-bar{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 10px;
+	}
+	.smal{
+		display: flex;
+		flex-direction: column;
+	}
+	.header h2{
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.content{
+		display: flex;
+		flex-direction: column;
+		margin: 0 50px;
+	}
+	.content p{
+		margin:20px 1px;
+	}
+	.footers{
+
+		margin: auto;
+		margin-top: 40px;
+		width: 95%;
+		height: 900px;
+		background-color: rgb(123, 124, 234, .3);
+		border-radius: 20px;
+
+	}
+	hr{
+		display: none;
+	}
+	.links li{
+		margin: 20px 10px;
+	}
+	.footers h2{
+		text-align: center;
+		color: white;
+	}
+	.footer{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.login-btn {
+		margin-left: 35%;
+		margin-bottom:20px ;
+	}
+	.login-btn a{
+		text-decoration: none;
+		padding: 10px 20px;
+		color: black;
+		background-color:white;
+		border-radius: 10px;
+	}
+	.login-btn a:hover{
+		background-color: blue;
+		color: white;
+	}
+	small{
+		margin-left: 46%;
+	}
+}
+
+@media screen and (max-width:500px){
+	.container{
+	width: 100%;
+	height: auto;
+	}
+	#menu{
+		display: flex;
+		flex-direction: row;
+		margin:0 80%;
+	}
+	.nav-list{
+		max-height: 0px;
+		overflow: hidden;
+		width: 70px;
+	}
+	.nav-bar{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin: 0 10px;
+	}
+	.smal{
+		display: flex;
+		flex-direction: column;
+	}
+	.header h2{
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.content{
+		display: flex;
+		flex-direction: column;
+		margin: 0 10px;
+	}
+	.content p{
+		margin:20px 10px;
+	}
+	.footers{
+
+		margin: auto;
+		margin-top: 40px;
+		width: 95%;
+		height: 900px;
+		background-color: rgb(123, 124, 234, .3);
+		border-radius: 20px;
+
+	}
+	hr{
+		display: none;
+	}
+	.links li{
+		margin: 20px 10px;
+	}
+	.footers h2{
+		text-align: center;
+		color: black;
+	}
+	.footer{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.login-btn {
+		margin-left: 20%;
+		margin-bottom:20px ;
+	}
+	.login-btn a{
+		text-decoration: none;
+		padding: 5px 10px;
+		color: black;
+		background-color:white;
+		border-radius: 10px;
+
+	}
+	small{
+		margin-left: 30%;
+	}
+	.logo{
+		width: 80px;
+	}
+}

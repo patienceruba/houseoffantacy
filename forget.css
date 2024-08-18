@@ -1,0 +1,37 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, .5)),url(back_image.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.container{
+	margin: auto;
+	width: 20%;
+	height: 150px;
+	margin-top: 20%;
+	box-shadow: 0 0 10px blue;
+	border-radius: 10px;
+	border: 1px solid white;
+	margin-bottom: 230px;
+}
+.forget{
+	margin: 20px 10%;
+}
+.forget .email input{
+	margin-top: 10px;
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+.forget .next input{
+	margin-top: 10px;
+	padding: 10px 20px;
+	margin-left: 28%;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	box-shadow:  0 0 10px blue;
+}

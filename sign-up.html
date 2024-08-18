@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="sign-up.css">
+	<script src="sign-up.js"></script>
+</head>
+<body>
+<section>
+	<div class="container">
+		<div class="nav-bar">
+			<a href="index.html"><img src="hf.png" width="200" class="logo"></a>
+			<div class="smal">
+				<svg id="menu" onclick="show()" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+			
+				<div class="nav-list">
+					<a href="index.html">Home</a>
+					<a href="product.html">product</a>
+					<a href="services.html">service</a>
+					<a href="about.html">about</a>
+				</div>
+			</div>
+		</div>
+		<div class="reg-box">
+			<h2>SIGN-UP</h2>
+			<form method="POST" action="" id="sub">
+				<div class="firstname">
+					<input type="text" name="fname" placeholder="firstname" required>
+				</div>
+				<div class="lastname">
+					<input type="text" name="lname" placeholder="lastname" required>
+				</div>
+
+				<div class="user">
+					<input type="text" name="user" placeholder="Username" required>
+				</div>
+				<div class="email">
+					<input type="email" name="email" placeholder="email">
+				</div>
+				<div class="pass">
+					<input type="password" name="pass" placeholder="password" required id="pass">
+				</div>
+				<div class="pass1">
+					<input type="password" name="pass" placeholder="re-enter password" 
+					required id="pass1">
+				</div>
+				<div class="rem">
+					<input type="checkbox" name="remember">Agreed to the terms and conditions
+				</div>
+				<div class="reg-btn">
+					<input type="Submit" name="register" value="SIGN-UP" required >
+					
+				</div>
+				<p>have account?<a href="login.html">SIGN-IN</a></p>
+
+			</form>
+		</div>
+	</div>
+</section>
+
+</footer>
+</body>
+</html>
